@@ -1,0 +1,144 @@
+.seat-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000096;
+    .show-details {
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+    }
+    .seats-container {
+        background: white;
+        padding: 30px;
+        color: black;
+        border-radius: 10px;
+        position: relative;
+        .legends {
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 12px;
+            padding: 10px;
+        }
+        .error-info {
+            text-align: center;
+            padding: 5px;
+            background-color: red;
+            color: white;
+            border-radius: 24px;
+            font-size: 12px;
+            margin: 10px;
+        }
+        .screen {
+            font-size: 10px;
+            border-bottom: 3px solid #3a3a3a;
+            text-align: center;
+            width: 200px;
+            margin: auto;
+            padding: 11px;
+        }
+        .close {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            color: white;
+            background-color: black;
+            padding: 10px;
+            border-radius: 20px;
+            height: 10px;
+            width: 10px;
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        .show-name {
+            font-size: 25px;
+            text-align: center;
+            border-bottom: 1px solid #bbbbbb;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .checkout-button {
+            text-align: center;
+            margin-top: 20px;
+            button {
+                padding: 10px;
+                background-color: #6aa06a;
+                border: none;
+                color: white;
+                font-size: 15px;
+                outline: none;
+                border-radius: 7px;
+                &:hover {
+                    cursor: pointer;
+                    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+                    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+                }
+            }
+        }
+        .seats {
+            width: 450px;
+            display: flex;
+            flex-wrap: wrap;
+            height: 185px;
+            justify-content: center;
+            .seat-info {
+                width: 40px;
+                display: flex;
+                margin: 4px;
+                justify-content: center;
+                align-items: center;
+                background-color: #cecece;
+                height: 40px;
+                border-radius: 6px;
+                &:hover {
+                    background-color: #8bce8b;
+                    cursor: pointer;
+                    color: white;
+                }
+            }
+            .is-booked {
+                background-color: gray;
+                &:hover {
+                    background-color: gray;
+                    color: black;
+                }
+            }
+            .is-selected {
+                background-color: #8bce8b;
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .seat-info-container {
+        .seats-container {
+            padding: 20px;
+            .seats {
+                width: 300px;
+                flex-wrap: wrap;
+                height: auto;
+                overflow: scroll;
+                .seat-info {
+                    width: 25px;
+                    font-size: 12px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}

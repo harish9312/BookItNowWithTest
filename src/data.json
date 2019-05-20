@@ -1,0 +1,271 @@
+{
+    "id": "01",
+    "showData": [
+        {
+            "descText": "Show 1 Running in Audi 1:",
+            "movieName": "Kesari",
+            "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Kesari_poster.jpg/220px-Kesari_poster.jpg"
+        },
+        {
+            "descText": "Show 2 Running in Audi 2:",
+            "movieName": "Badla",
+            "imgSrc": "https://m.media-amazon.com/images/M/MV5BYjZiMzIzYTctNDViZi00OWNmLWFmN2YtMmI2OWJiZWViMmY3XkEyXkFqcGdeQXVyNTYwMzA0MTM@._V1_QL50_SY1000_SX750_AL_.jpg"
+        },
+        {
+            "descText": "Show 3 Running in Audi 3:",
+            "movieName": "Luka Chupi",
+            "imgSrc": "https://m.media-amazon.com/images/M/MV5BY2MwM2ZhNTItMzkwNi00MTQxLTljMDAtZTk1YmU2M2YzNGVmXkEyXkFqcGdeQXVyNjE1OTQ0NjA@._V1_QL50_SY1000_CR0,0,692,1000_AL_.jpg"
+        }
+    ],
+    "ticketData": {
+        "Kesari": [
+            {
+                "A1": true
+            },
+            {
+                "A2": true
+            },
+            {
+                "A3": true
+            },
+            {
+                "A4": true
+            },
+            {
+                "A5": true
+            },
+            {
+                "A6": true
+            },
+            {
+                "A7": true
+            },
+            {
+                "A8": true
+            },
+            {
+                "A9": true
+            },
+            {
+                "B1": true
+            },
+            {
+                "B2": true
+            },
+            {
+                "B3": true
+            },
+            {
+                "B4": true
+            },
+            {
+                "B5": true
+            },
+            {
+                "B6": true
+            },
+            {
+                "B7": true
+            },
+            {
+                "B8": true
+            },
+            {
+                "B9": true
+            },
+            {
+                "C1": true
+            },
+            {
+                "C2": true
+            },
+            {
+                "C3": true
+            },
+            {
+                "C4": true
+            },
+            {
+                "C5": true
+            },
+            {
+                "C6": true
+            },
+            {
+                "C7": true
+            },
+            {
+                "C8": true
+            },
+            {
+                "C9": true
+            }
+        ],
+        "Badla": [
+            {
+                "A1": true
+            },
+            {
+                "A2": true
+            },
+            {
+                "A3": true
+            },
+            {
+                "A4": true
+            },
+            {
+                "A5": true
+            },
+            {
+                "A6": true
+            },
+            {
+                "A7": true
+            },
+            {
+                "A8": true
+            },
+            {
+                "A9": true
+            },
+            {
+                "B1": true
+            },
+            {
+                "B2": true
+            },
+            {
+                "B3": true
+            },
+            {
+                "B4": true
+            },
+            {
+                "B5": true
+            },
+            {
+                "B6": true
+            },
+            {
+                "B7": true
+            },
+            {
+                "B8": true
+            },
+            {
+                "B9": true
+            },
+            {
+                "C1": true
+            },
+            {
+                "C2": true
+            },
+            {
+                "C3": true
+            },
+            {
+                "C4": true
+            },
+            {
+                "C5": true
+            },
+            {
+                "C6": true
+            },
+            {
+                "C7": true
+            },
+            {
+                "C8": true
+            },
+            {
+                "C9": true
+            }
+        ],
+        "Luka Chupi": [
+            {
+                "A1": false
+            },
+            {
+                "A2": true
+            },
+            {
+                "A3": true
+            },
+            {
+                "A4": true
+            },
+            {
+                "A5": true
+            },
+            {
+                "A6": true
+            },
+            {
+                "A7": true
+            },
+            {
+                "A8": true
+            },
+            {
+                "A9": true
+            },
+            {
+                "B1": true
+            },
+            {
+                "B2": true
+            },
+            {
+                "B3": true
+            },
+            {
+                "B4": true
+            },
+            {
+                "B5": true
+            },
+            {
+                "B6": true
+            },
+            {
+                "B7": true
+            },
+            {
+                "B8": true
+            },
+            {
+                "B9": true
+            },
+            {
+                "C1": true
+            },
+            {
+                "C2": true
+            },
+            {
+                "C3": true
+            },
+            {
+                "C4": true
+            },
+            {
+                "C5": true
+            },
+            {
+                "C6": true
+            },
+            {
+                "C7": true
+            },
+            {
+                "C8": true
+            },
+            {
+                "C9": true
+            }
+        ]
+    }
+}

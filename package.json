@@ -1,0 +1,99 @@
+{
+  "name": "book-it-now-with-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "7.1.6",
+    "@svgr/webpack": "2.4.1",
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^24.0.11",
+    "@types/node": "^10.12.18",
+    "@types/react": "16.3.2",
+    "@types/react-dom": "16.0.5",
+    "@types/react-router": "^4.0.7",
+    "@types/react-router-dom": "4.0.7",
+    "@types/redux": "3.6.0",
+    "autoprefixer": "^9.5.0",
+    "axios": "^0.18.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-loader": "8.0.4",
+    "babel-plugin-named-asset-import": "^0.3.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "^7.0.0",
+    "bfj": "6.1.1",
+    "case-sensitive-paths-webpack-plugin": "2.1.2",
+    "chalk": "2.4.1",
+    "css-loader": "1.0.0",
+    "dotenv": "6.0.0",
+    "dotenv-expand": "4.2.0",
+    "enzyme": "^3.9.0",
+    "file-loader": "2.0.0",
+    "fork-ts-checker-webpack-plugin": "^0.5.2",
+    "fork-ts-checker-webpack-plugin-alt": "0.4.14",
+    "fs-extra": "7.0.0",
+    "html-webpack-plugin": "4.0.0-alpha.2",
+    "immutable": "^3.8.1",
+    "jest": "^24.5.0",
+    "mini-css-extract-plugin": "0.4.3",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "5.0.1",
+    "postcss-flexbugs-fixes": "3.2.0",
+    "postcss-loader": "^2.1.6",
+    "precss": "^3.1.2",
+    "promise": "8.0.1",
+    "react": "^16.7.0",
+    "react-app-polyfill": "^0.2.0",
+    "react-dev-utils": "^7.0.1",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "resolve": "1.8.1",
+    "sass-loader": "7.1.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "0.23.0",
+    "ts-loader": "^5.3.3",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "tslint": "^5.12.0",
+    "tslint-loader": "^3.5.4",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.2.2",
+    "url-loader": "1.1.1",
+    "webpack": "4.19.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "3.1.14",
+    "webpack-manifest-plugin": "2.0.4"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --progress --inline --hot --config ./config/webpack.config.dev.js",
+    "build": "node scripts/build.js",
+    "test": "jest --coverage"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "devDependencies": {
+    "enzyme-adapter-react-16": "^1.11.2",
+    "enzyme-to-json": "^3.3.5"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|scss|less)$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  }
+}
